@@ -62,14 +62,18 @@ Unir dos Ramas lo conocemos como Merge.
 Estandar de equipos de desarrollo..
 
     - Rama Master: va a produccion.
-    - Rama Development: se alojan las nuevas features, características y experimentos (para unirse al Master cuando esten definitivamente listas).
+    - Rama Development: se alojan las nuevas features, características y experimentos
+     (para unirse al Master cuando esten definitivamente listas).
     - Rama Hotfix: issues o errores se solucionan aqui para unirse al Master tan pronto sea posible.
 
 # Crea un repositorio de Git y haz tu primer commit ✨
 
-Le indicaremos a Git que queremos crear un nuevo repositorio para utilizar un sistema de control de versiones. Solo debemos posicionarnos en la carpeta raiz de nuestro proyecto y ejecutar el comando git init.
+Le indicaremos a Git que queremos crear un nuevo repositorio para utilizar un sistema
+de control de versiones.
+Solo debemos posicionarnos en la carpeta raiz de nuestro proyecto y ejecutar el comando git init.
 
-Recuerda que al ejecutar este comando (u de aqui en edelante) vamos a tener una nueva carpeta llamada **.git** con toda la base de datos con cambios atómicos en nuestro proyecto.
+Recuerda que al ejecutar este comando (u de aqui en edelante) vamos a tener una nueva carpeta llamada **.git**
+con toda la base de datos con cambios atómicos en nuestro proyecto.
 
 Recuerda que Git esta optimizado para trabajar en equipo, por lo tanto, debemos darle un poco de información sobre nosotros. No debemos hacerlo todas las veces que ejecutamos un comando, basta con ejecutar solo una vez los siguientes comandos con tu información:
 
@@ -93,11 +97,11 @@ Existen muchas otras configuraciones de Git que puedes encontrar en el comando g
 
 - **git log --stat**: commit descriptivo con cantidad de lineas agregadas y removidas por archivo.
 
-- **git reset --soft<commit>**: mantiene los archivos en el area de Staging para que podamos aplicar nuestros últimos cambios desde un commit anterior.
+- **git reset --soft 'commit'**: mantiene los archivos en el area de Staging para que podamos aplicar nuestros últimos cambios desde un commit anterior.
 
-- **git reset --hard<commit>**: borra toda la información que tengamos en el area de Staging. (Perdiendo todo para siempre).
+- **git reset --hard 'commit'**: borra toda la información que tengamos en el area de Staging. (Perdiendo todo para siempre).
 
-- **git checkout master<archivo.txt>**: volvemos a la version madre.
+- **git checkout master 'archivo.txt'**: volvemos a la version madre.
 
 # Introduccion a las ramas o branches de Git 🌳🌱
 
@@ -111,7 +115,7 @@ La cabecera o head representan la rama y el commit de esa rama donde estamos tra
 
 # Fusión de ramas con Git Merge 🐱‍🏍
 
-El comando git merge nos permite crear un nuevo commit con la convinacion de dos ramas, la rama donde nos encontramos cuando ejecutamos el comando y la rama que le pasamos despues del comando.
+El comando git merge nos permite crear un nuevo commit con la conbinacion de dos ramas, la rama donde nos encontramos cuando ejecutamos el comando y la rama que le pasamos despues del comando.
 
 - **git merge cualquier-otra-rama**.
 
