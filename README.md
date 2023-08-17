@@ -1,6 +1,6 @@
 # Mini-Curso-de-Git-y-GitHub
 
-## Colaboración para Henry!! 😊💛
+## Colaboración para Henry!!
 
 Este mini curso fue creado para ayudar a agilizar el flujo trabajo en la etapa final
 del bootcamp en Henry, consta de comandos básicos indispensables para poder manejarnos libremente
